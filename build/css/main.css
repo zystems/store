@@ -1,0 +1,76 @@
+/*
+Imports
+*/
+/*
+FONTS
+*/
+/*
+COLORS
+sorted 1-4 where 1 is darkest
+*/
+/*
+SIZES
+*/
+/*
+BREAKPOINTS
+*/
+/*
+Creates a tile in the grid. Should be used with (1-2, 1-4) parameter
+*/
+/*
+Vertical align
+*/
+html, body {
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-family: "ff-tisa-sans-web-pro", Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #E1E1E1;
+  font-weight: lighter; }
+
+.Header {
+  width: 100vw;
+  height: 60px;
+  background-color: #000;
+  text-align: center; }
+
+.Header > div {
+  display: inline-block; }
+
+.Header-navigation-button {
+  float: left; }
+  .Header-navigation-button img {
+    height: 24px;
+    margin: 18px 18px; }
+
+.Header-logo img {
+  height: 40px;
+  margin: 10px 0; }
+
+.Header-account-button {
+  float: right; }
+  .Header-account-button img {
+    height: 40px;
+    margin: 10px 10px; }
+
+.size2-1pos1-1 {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 25vh;
+  text-align: center;
+  background: #505050;
+  display: inline-block; }
+
+.size2-1pos1-1 > div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block; }
+  .size2-1pos1-1 > div img {
+    margin: 0 auto;
+    width: 50%; }
+
+/*# sourceMappingURL=main.css.map */

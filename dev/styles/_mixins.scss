@@ -1,0 +1,19 @@
+/*
+Creates a tile in the grid. Should be used with (1-2, 1-4) parameter
+*/
+@mixin grid-tile($nrOfWidth, $nrOfHeight) {
+	padding: 0;
+	margin: 0;
+	width: 50vw*$nrOfWidth;
+	height: 25vh*$nrOfHeight;
+	text-align: center;
+}
+
+/*
+Vertical align
+*/
+@mixin vertical-align {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

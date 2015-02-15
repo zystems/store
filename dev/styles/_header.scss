@@ -1,0 +1,33 @@
+.Header {
+	width: 100vw;
+	height: $header-height;
+	background-color: #000;
+	text-align: center;
+}
+
+.Header>div {
+	display: inline-block;
+}
+
+.Header-navigation-button {
+	float: left;
+	img {
+		height: 24px;
+		margin: 18px 18px;
+	}
+}
+
+.Header-logo {
+	img {
+		height: 40px;
+		margin: 10px 0;
+	}
+}
+
+.Header-account-button {
+	float: right;
+	img {
+		height: 40px;
+		margin: 10px 10px;
+	}
+}

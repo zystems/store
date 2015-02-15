@@ -1,0 +1,15 @@
+.size2-1pos1-1 {
+	@include grid-tile(2, 1);
+	background: $grey1;
+	display: inline-block;
+}
+
+.size2-1pos1-1>div {
+	@include vertical-align;
+	display: inline-block;
+
+	img {
+		margin: 0 auto;
+		width: 50%;
+	}
+}

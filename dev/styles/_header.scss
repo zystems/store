@@ -11,23 +11,30 @@
 
 .Header-navigation-button {
 	float: left;
+	height: 5vh;
+	width: 5vh;
 	img {
-		height: 24px;
-		margin: 18px 18px;
+		height: 60%;
+		padding: 20% 20%;
 	}
 }
 
 .Header-logo {
+	height: 5vh;
 	img {
-		height: 40px;
-		margin: 10px 0;
+		height: 3vh;
+		padding: 1vh 0;
+		// height: 3vh;
+		// padding: 1vh 0; 
 	}
 }
 
 .Header-account-button {
+	height: 5vh;
+	width: 5vh;
 	float: right;
 	img {
-		height: 40px;
-		margin: 10px 10px;
+		height: 80%;
+		padding: 10% 10%;
 	}
 }

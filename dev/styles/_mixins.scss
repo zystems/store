@@ -5,7 +5,7 @@ Creates a tile in the grid. Should be used with (1-2, 1-4) parameter
 	padding: 0;
 	margin: 0;
 	width: 50vw*$nrOfWidth;
-	height: 95vh/4*$nrOfHeight;
+	height: (90vh/4)*$nrOfHeight;
 	text-align: center;
 }
 

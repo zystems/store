@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Imports
 */
@@ -6,6 +7,9 @@ FONTS
 */
 /*
 COLORS
+*/
+/*
+TILE-COLORS
 sorted 1-4 where 1 is darkest
 */
 /*
@@ -22,7 +26,11 @@ Vertical align
 */
 html, body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  overflow: hidden;
+  background-color: #FFF;
+  font-family: "proxima-nova", Helvetica, sans-serif;
+  color: white; }
 
 h1 {
   font-family: "ff-tisa-sans-web-pro", Helvetica, sans-serif;
@@ -30,9 +38,13 @@ h1 {
   color: #E1E1E1;
   font-weight: lighter; }
 
+h2 {
+  margin: 0;
+  padding: 0; }
+
 .Header {
   width: 100vw;
-  height: 60px;
+  height: 10vh;
   background-color: #000;
   text-align: center; }
 
@@ -40,37 +52,158 @@ h1 {
   display: inline-block; }
 
 .Header-navigation-button {
-  float: left; }
+  float: left;
+  height: 10vh;
+  width: 10vh; }
   .Header-navigation-button img {
-    height: 24px;
-    margin: 18px 18px; }
+    height: 40%;
+    padding: 30% 30%; }
 
-.Header-logo img {
-  height: 40px;
-  margin: 10px 0; }
+.Header-logo {
+  height: 10vh; }
+  .Header-logo img {
+    height: 5vh;
+    padding: 2.5vh 0; }
 
 .Header-account-button {
+  height: 10vh;
+  width: 10vh;
   float: right; }
   .Header-account-button img {
-    height: 40px;
-    margin: 10px 10px; }
+    height: 80%;
+    padding: 10% 10%; }
 
 .size2-1pos1-1 {
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 25vh;
+  height: 22.5vh;
   text-align: center;
-  background: #505050;
-  display: inline-block; }
+  background: #2c2c2c;
+  display: inline-block;
+  float: left; }
 
-.size2-1pos1-1 > div {
+.size1-1pos1-2 {
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  height: 22.5vh;
+  text-align: center;
+  background: #b5b5b5;
+  display: inline-block;
+  float: left; }
+
+.size1-1pos2-2 {
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  height: 22.5vh;
+  text-align: center;
+  background: #284565;
+  display: inline-block;
+  float: right; }
+
+.size1-2pos1-3 {
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  height: 45vh;
+  text-align: center;
+  background: #1D3652;
+  display: inline-block;
+  float: left; }
+
+.size1-1pos2-3 {
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  height: 22.5vh;
+  text-align: center;
+  background: #6c6c6c;
+  display: inline-block;
+  float: right; }
+
+.size1-1pos2-4 {
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  height: 22.5vh;
+  text-align: center;
+  background: #42658E;
+  display: inline-block;
+  float: right; }
+
+.tile > div {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   display: inline-block; }
-  .size2-1pos1-1 > div img {
+  .tile > div img {
     margin: 0 auto;
-    width: 50%; }
+    width: 30%; }
+  .tile > div h1 {
+    font-size: 0.8em; }
+
+/* –– HEADER –––––––––––––––––––––––––––––––––––––––––––– */
+.App-header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #0071BC; }
+
+.App-header--navigation-left {
+  height: 100%;
+  padding: 0 7%;
+  float: left; }
+  .App-header--navigation-left img {
+    height: 40%; }
+
+.App-header--title {
+  float: left;
+  font-size: 1.3em; }
+
+/* –– CONTENT –––––––––––––––––––––––––––––––––––––––––––– */
+.App-content {
+  height: 80vh;
+  width: 100%;
+  background-color: #eee;
+  color: #000;
+  overflow: hidden; }
+
+.App-content-box {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5% 3%;
+  background-color: white;
+  box-shadow: 0 3px 3px #ccc; }
+  .App-content-box h2 {
+    font-size: 0.9em;
+    font-weight: 500; }
+  .App-content-box:first-of-type {
+    margin-top: 0; }
+
+/* –– FOOTER –––––––––––––––––––––––––––––––––––––––––––– */
+.App-footer {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white; }
+
+.App-footer--navigation-left {
+  float: left;
+  left: 10%; }
+
+.App-footer--navigation-right {
+  float: right;
+  right: 10%; }
+
+.center-vertical, .App-header--navigation-left img, .App-header--title, .App-footer--navigation-left, .App-footer--navigation-right {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.center-horizontal {
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

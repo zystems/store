@@ -9,6 +9,23 @@ $h1-size: 1.5em;
 //Color
 $h1-color: #E1E1E1;
 
+// font-weight
+$font-weight-light: 100;
+$font-weight-regular: 500;
+
+// font-color
+$font-color-dark: #000;
+$font-color-light: #FFF;
+
+/*
+COLORS
+*/
+$color-background: #FFF;
+$color-enfo-blue: #0071BC;
+
+$color-light-grey: #eee;
+$color-dark-grey: #222;
+
 /*
 TILE-COLORS
 sorted 1-4 where 1 is darkest
@@ -26,6 +43,7 @@ $blue4: #608DC0;
 SIZES
 */
 $header-height: 10vh;
+$footer-height: 10vh;
 
 /*
 BREAKPOINTS

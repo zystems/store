@@ -1,0 +1,75 @@
+/* –– HEADER –––––––––––––––––––––––––––––––––––––––––––– */
+
+.App-header {
+	width: 100vw;
+	height: $header-height;
+	background-color: $color-enfo-blue;
+}
+
+.App-header--navigation-left {
+	height: 100%;
+	padding: 0 7%;
+	float: left;
+
+	img {
+		@extend .center-vertical;
+		height: 40%;
+	}
+}
+
+.App-header--title {
+	@extend .center-vertical;
+	float: left;
+	font-size: 1.3em;
+}
+
+/* –– CONTENT –––––––––––––––––––––––––––––––––––––––––––– */
+
+.App-content {
+	height: 100vh - $header-height - $footer-height;
+	width: 100%;
+	background-color: $color-light-grey;
+	color: $font-color-dark;
+	overflow: hidden;
+}
+
+.App-content-box {
+	width: 100%;
+	margin-top: 10px;
+	padding: 5% 3%;
+	background-color: white;
+	box-shadow: 0 3px 3px #ccc;
+
+	h2 {
+		font-size: 0.9em;
+		font-weight: $font-weight-regular;
+	}
+
+	&:first-of-type {
+		margin-top: 0;
+	}
+}
+
+/* –– FOOTER –––––––––––––––––––––––––––––––––––––––––––– */
+
+.App-footer {
+	width: 100vw;
+	height: $footer-height;
+	position: fixed;
+	bottom: 0;
+	
+	background-color: black;
+	color: white;
+}
+
+.App-footer--navigation-left {
+	@extend .center-vertical;
+	float: left;
+	left: 10%;
+}
+
+.App-footer--navigation-right {
+	@extend .center-vertical;
+	float: right;
+	right: 10%;
+}

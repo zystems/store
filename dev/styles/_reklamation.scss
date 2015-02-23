@@ -69,8 +69,15 @@
 
 /* –– PAGE 2 (CONFIRM) –––––––––––––––––––––––––––––––––––––––––––– */
 
-#Confirm-product {
+.Confirm-text {
 	color: $font-color-grey;
+	font-size: $font-size-small;
+	font-weight: $font-weight-regular;
+	line-height: 1.2;
+}
+
+#Confirm-product {
+
 }
 
 #Confirm-description-type {
@@ -82,11 +89,13 @@
 }
 
 #Confirm-address {
-
+	
 }
 
 .Confirm-change {
-
+	margin-top: 30px;
+	margin-right: 25px;
+	text-align: right;
 }
 
 

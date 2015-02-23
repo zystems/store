@@ -164,7 +164,7 @@ h2 {
 /* –– CONTENT –––––––––––––––––––––––––––––––––––––––––––– */
 .App-content {
   height: 80vh;
-  width: 100%;
+  width: 100vw;
   background-color: #eee;
   color: #000;
   overflow: hidden; }
@@ -253,8 +253,16 @@ h2 {
   min-height: 100px; }
 
 /* –– PAGE 2 (CONFIRM) –––––––––––––––––––––––––––––––––––––––––––– */
-#Confirm-product {
-  color: #aaa; }
+.Confirm-text {
+  color: #888;
+  font-size: 0.9em;
+  font-weight: 500;
+  line-height: 1.2; }
+
+.Confirm-change {
+  margin-top: 30px;
+  margin-right: 25px;
+  text-align: right; }
 
 .center-vertical, .App-header--navigation-left img, .App-header--title, .App-footer--navigation-left, .App-footer--navigation-right {
   position: relative;

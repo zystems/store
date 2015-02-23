@@ -168,13 +168,19 @@ h2 {
   background-color: #eee;
   color: #000;
   overflow: hidden; }
+  .App-content a {
+    text-decoration: none;
+    color: #000; }
 
 .App-content-box {
   width: 100%;
-  margin-top: 10px;
+  box-sizing: border-box;
   padding: 5% 3%;
+  margin-top: 10px;
   background-color: white;
   box-shadow: 0 3px 3px #ccc; }
+  .App-content-box p {
+    font-weight: 100; }
   .App-content-box h2 {
     font-size: 0.9em;
     font-weight: 500; }
@@ -189,6 +195,9 @@ h2 {
   bottom: 0;
   background-color: black;
   color: white; }
+  .App-footer a {
+    text-decoration: none;
+    color: #FFF; }
 
 .App-footer--navigation-left {
   float: left;
@@ -198,12 +207,65 @@ h2 {
   float: right;
   right: 10%; }
 
+/* –– PAGE 1 (START) –––––––––––––––––––––––––––––––––––––––––––– */
+.Receipt {
+  width: 100%; }
+
+.Receipt-number {
+  margin-top: 10px; }
+  .Receipt-number input {
+    width: 80%; }
+  .Receipt-number img {
+    height: 25px;
+    margin-left: 20px;
+    vertical-align: middle; }
+
+.Receipt-product {
+  margin-top: 10px; }
+
+.Description {
+  width: 100%; }
+
+.Description-type {
+  margin: 10px 0;
+  border-bottom: 1px solid #ccc; }
+
+.Description-text {
+  margin: 10px 0;
+  border-bottom: 1px solid #ccc; }
+
+.Description-images {
+  margin: 10px 0;
+  text-align: center; }
+  .Description-images img {
+    width: 70px;
+    margin-right: 10px; }
+
+.App-form button, .App-form input, .App-form select, .App-form textarea {
+  font-family: inherit;
+  font-size: 100%; }
+.App-form input {
+  height: 30px; }
+.App-form select {
+  width: 80%; }
+.App-form textarea {
+  width: 100%;
+  min-height: 100px; }
+
+/* –– PAGE 2 (CONFIRM) –––––––––––––––––––––––––––––––––––––––––––– */
+#Confirm-product {
+  color: #aaa; }
+
 .center-vertical, .App-header--navigation-left img, .App-header--title, .App-footer--navigation-left, .App-footer--navigation-right {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
 
 .center-horizontal {
+  margin: 0 auto; }
+
+.wrapper {
+  width: 95%;
   margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

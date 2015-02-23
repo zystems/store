@@ -1,0 +1,94 @@
+
+/* –– PAGE 1 (START) –––––––––––––––––––––––––––––––––––––––––––– */
+
+.Receipt {
+	width: 100%;
+}
+
+.Receipt-number {
+	margin-top: 10px;
+
+	input {
+		width: 80%;
+	}
+
+	img {
+		height: 25px;
+		margin-left: 20px;
+		vertical-align: middle;
+	}
+}
+
+.Receipt-product {
+	margin-top: 10px;
+}
+
+.Description {
+	width: 100%;
+}
+
+.Description-type {
+	margin: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.Description-text {
+	margin: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.Description-images {
+	margin: 10px 0;
+	text-align: center;
+
+	img {
+		width: 70px;
+		margin-right: 10px;
+	}
+}
+
+.App-form {
+	button, input, select, textarea {
+	  	font-family : inherit;
+	  	font-size   : 100%;
+	}
+
+	input {
+		height: 30px;
+	}
+
+	select {
+		width: 80%;
+	}
+
+	textarea {
+		width: 100%;
+		min-height: 100px;
+	}
+}
+
+/* –– PAGE 2 (CONFIRM) –––––––––––––––––––––––––––––––––––––––––––– */
+
+#Confirm-product {
+	color: $font-color-grey;
+}
+
+#Confirm-description-type {
+
+}
+
+#Confirm-description-text {
+
+}
+
+#Confirm-address {
+
+}
+
+.Confirm-change {
+
+}
+
+
+
+

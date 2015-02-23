@@ -31,14 +31,24 @@
 	background-color: $color-light-grey;
 	color: $font-color-dark;
 	overflow: hidden;
+
+	a {
+		text-decoration: none;
+		color: $font-color-dark;
+	}
 }
 
 .App-content-box {
 	width: 100%;
-	margin-top: 10px;
+	box-sizing: border-box;
 	padding: 5% 3%;
+	margin-top: 10px;
 	background-color: white;
 	box-shadow: 0 3px 3px #ccc;
+
+	p {
+		font-weight: $font-weight-light;
+	}
 
 	h2 {
 		font-size: 0.9em;
@@ -60,6 +70,11 @@
 	
 	background-color: black;
 	color: white;
+
+	a {
+		text-decoration: none;
+		color: $font-color-light;
+	}
 }
 
 .App-footer--navigation-left {

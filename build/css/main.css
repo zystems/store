@@ -28,7 +28,7 @@ html, body {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-color: #FFF;
+  background-color: #000;
   font-family: "proxima-nova", Helvetica, sans-serif;
   color: white; }
 
@@ -73,11 +73,11 @@ h2 {
     height: 80%;
     padding: 10% 10%; }
 
-.size2-1pos1-1 {
+.size2-2pos1-1 {
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 22.5vh;
+  height: 45vh;
   text-align: center;
   background: #2c2c2c;
   display: inline-block;
@@ -140,9 +140,11 @@ h2 {
   display: inline-block; }
   .tile > div img {
     margin: 0 auto;
-    width: 30%; }
+    width: 50px;
+    height: auto; }
   .tile > div h1 {
-    font-size: 0.8em; }
+    font-size: 1em;
+    margin-bottom: 0; }
 
 /* –– HEADER –––––––––––––––––––––––––––––––––––––––––––– */
 .App-header {
@@ -155,6 +157,8 @@ h2 {
   padding: 0 7%;
   float: left; }
   .App-header--navigation-left img {
+    height: 40%; }
+  .App-header--navigation-left object {
     height: 40%; }
 
 .App-header--title {
@@ -264,7 +268,7 @@ h2 {
   margin-right: 25px;
   text-align: right; }
 
-.center-vertical, .App-header--navigation-left img, .App-header--title, .App-footer--navigation-left, .App-footer--navigation-right {
+.center-vertical, .App-header--navigation-left img, .App-header--navigation-left object, .App-header--title, .App-footer--navigation-left, .App-footer--navigation-right {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
@@ -275,5 +279,12 @@ h2 {
 .wrapper {
   width: 95%;
   margin: 0 auto; }
+
+.ads {
+  width: 100%;
+  height: 100%;
+  background: url(../../dev/res/gridhead1.png) center center no-repeat;
+  background-size: 100% 100%;
+  transition: background-image 1s ease-in; }
 
 /*# sourceMappingURL=main.css.map */

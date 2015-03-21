@@ -15,6 +15,11 @@
 		@extend .center-vertical;
 		height: 40%;
 	}
+
+	object {
+		@extend .center-vertical;
+		height: 40%;
+	}
 }
 
 .App-header--title {

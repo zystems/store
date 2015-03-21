@@ -19,8 +19,34 @@ $(document).ready(function() {
 				break;
 		}
 	});
+	setInterval(changeBackground, 7000);
+
+
+	// console.log($('#iconSet'));
+	// var segment_str = document.referrer;
+	// var segment_array = segment_str.split( '/' );
+	// var last_segment = segment_array.pop();
+	// var morph = new SVGMorpheus('#iconSet');
+	// if (location.pathname == menuItems[1].url && last_segment != 'reklamation-confirm.html') {
+	// 	setTimeout(function() {
+	// 		morph.to('back-arrow');
+	// 	}, 50);
+	// }
+	// else {
+	// 	$('#iconSet').children()[0]
+	// }
 });
 
+function changeBackground() {
+	adCounter = adCounter+1;
+	if (adCounter > 6) {
+		adCounter = 1;
+	}
+	var urlAd = '../../dev/res/gridhead'+adCounter+'.png';
+	$('.ads').css('backgroundImage', 'url('+urlAd+')');
+}
+
+var adCounter = 1;
 var menuItems = [
 	{
         name : 'Main',  
